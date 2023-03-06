@@ -1,10 +1,10 @@
+from src.schedule.tasks import refresh_offer
 from src.logic.app import App
 
 
 def main() -> None:
-
     app = App()
-    app.refresh_offers()
+    refresh_offer(app)
 
 
 if __name__ == '__main__':
